@@ -1,0 +1,65 @@
+RURAL DYNASTY — ARQUITETURA DO PROJETO
+
+1. Objetivo deste documento
+
+Registrar a arquitetura técnica real do Rural Dynasty, com base na inspeção do código-fonte.
+
+2. Tecnologias
+
+- HTML
+- CSS
+- JavaScript
+- Three.js
+
+Confirmar no código as versões e dependências utilizadas.
+
+3. Arquivo principal
+
+Identificar o arquivo HTML principal e documentar:
+
+- Estrutura geral.
+- Bibliotecas carregadas.
+- Organização dos scripts.
+- Estilos e interface.
+- Inicialização do jogo.
+
+4. Sistemas do jogo
+
+Inspecionar o código e documentar cada sistema encontrado, incluindo:
+
+- Mundo e geração do cenário.
+- Personagem e movimentação.
+- Câmera e controles.
+- Veículos e direção.
+- Construções e interiores.
+- NPCs e interações.
+- Economia e inventário.
+- Necessidades do personagem.
+- Missões e atividades.
+- Salvamento e carregamento.
+- Áudio.
+- Interface e configurações gráficas.
+
+5. Dependências e comunicação
+
+Identificar como os sistemas se comunicam, quais funções são compartilhadas e quais variáveis globais existem.
+
+6. Desempenho e compatibilidade
+
+Documentar:
+
+- Otimizações para celulares.
+- Carregamento de modelos e texturas.
+- Gerenciamento de memória.
+- Limitações conhecidas.
+- Possíveis gargalos de desempenho.
+
+7. Problemas técnicos
+
+Registrar bugs, funções duplicadas, dependências frágeis e pontos que precisam de refatoração.
+
+8. Regras de documentação
+
+Não inventar informações. Cada sistema deve ser descrito conforme encontrado no código. Diferenciar recursos implementados, parcialmente implementados e apenas planejados.
+
+Atualizar este documento sempre que a arquitetura do jogo mudar.
